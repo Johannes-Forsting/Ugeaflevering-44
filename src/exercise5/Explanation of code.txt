@@ -1,0 +1,27 @@
+In this specific piece of code we have a main-method and a generateRandomInteger() -method.
+If we look at the generateRandomInteger()-method, we can see that it is public, so it is reachable from other classes in the project. 
+it is also static, so the method is reachable without creating an object of the class it is in. (In this case the Main class).
+We can also see that it returns an integer value, and it takes no parameters to run the method.
+Inside the method a variable named "randomGenerator" is defined as the datatype "Random" and is assigned the value "new Random()".
+Then the method uses that variable to do a method from the Random class to return an integer value from 0 to the bound number (In this case 9). 
+So, to sum it up, it takes no parameters and returns a random number from 0-9.
+
+Inside the main-method a for-loop is executed which runs for 10 iterations. 
+In each iteration a variable named "random" is defined as an integer data type, and is assigned the return value of the generateRandomInteger()-metod.
+When the value is assigned to the variable, that variable is the printed to the console via a sout. (System.out.println();)
+After the 10 iterations the text "Random integers generated" is also printed to the console via a sout.
+So the console would look something like this:
+
+
+2
+3
+0
+8
+7
+7
+1
+0
+6
+5
+Random integers generated
+
