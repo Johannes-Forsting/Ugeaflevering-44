@@ -5,15 +5,22 @@ public class Cutlery {
     private int length;
     private int weight;
     private String brand;
+    private static int amountOfCutlery;
 
     public Cutlery(String material, int length, int weight, String brand) {
         this.material = material;
         this.length = length;
         this.weight = weight;
         this.brand = brand;
+        amountOfCutlery++;
     }
 
     public void callType(){
+
+    }
+
+    public static int getAmountOfCutlery() {
+        return amountOfCutlery;
     }
 
     @Override

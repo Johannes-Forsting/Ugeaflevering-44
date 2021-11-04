@@ -17,7 +17,7 @@ public class Main {
         cutleryDrawer.add(spoon2);
         cutleryDrawer.add(fork1);
         cutleryDrawer.add(fork2);
-
+        System.out.println("In the drawer there is a total of " + Cutlery.getAmountOfCutlery() + " pieces of cutlery.");
         seeInsideDrawer(cutleryDrawer);
     }
 

@@ -1,0 +1,5 @@
+The "static" keyword means that a method or attribute is coherent with the class and not with an object of the class.
+I made an example in the Cutlery class. I made a static int "amountOfCutlery", and that attribute is only callable on the whole class,
+and not on each individual object of knife, fork and spoon.
+If I did not make it static then that attribute would "belong" to each individual object that I make.
+
