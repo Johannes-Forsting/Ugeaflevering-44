@@ -15,10 +15,13 @@ public class Cutlery {
         amountOfCutlery++;
     }
 
+    //Metode som bliver overridet i hver enkelt child-class
     public void callType(){
 
     }
 
+
+    //Static metode til at få antallet af cutlery's der bliver oprettet i mainmetoden.
     public static int getAmountOfCutlery() {
         return amountOfCutlery;
     }
